@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="13.3">
+  <zoom_level>10</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>190</x>
+      <y>20</y>
+      <w>380</w>
+      <h>310</h>
+    </coordinates>
+    <panel_attributes>Pagina	
+--
+- quadros: vector&lt;int&gt;
+- referencias: vector&lt;int&gt;
+--
++ Pagina(): void                   
++ Pagina(&amp;outro: const Pagina): void 
++ Pagina(q: int, &amp;r: vector&lt;int&gt; ): void
++ ~Pagina(): void                    
++ setQuadros(r: int, i: int): void       
++ getQuadros(i: int): int                          
++ getReferencias(i: int): int                      
++ getReferenciasSize(): int                      
++ getQuadrosSize(): int                      
++ verificaValorDeReferenciaEmQuadros(i: int): bool
++ getPosicaoDeReferenciaEmQuadros(i: int): int   
++ reiniciaParametros(): void                   
++ int getMaiorDiferenca(int inicial):           
++ getQuadrosCheio(): bool
++ getVetorQuadros(): vector&lt;int&gt; </panel_attributes>
+    <additional_attributes/>
+  </element>
+</diagram>
